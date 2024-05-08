@@ -4,7 +4,8 @@ on: [push, pull_request]
 
 jobs:
   run_qa:
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
+    runs-on: futurewiz
     steps:
       - uses: actions/checkout@v4
         with:
