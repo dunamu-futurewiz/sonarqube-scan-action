@@ -8,7 +8,7 @@ on:
 jobs:
   generate:
     # runs-on: ubuntu-latest
-    runs-on: futurewiz
+    runs-on: sonar
     permissions:
       contents: write
 
