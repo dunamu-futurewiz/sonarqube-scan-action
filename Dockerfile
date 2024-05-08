@@ -1,4 +1,5 @@
-FROM sonarsource/sonar-scanner-cli:5.0.1
+# FROM sonarsource/sonar-scanner-cli:5.0.1
+FROM harbor.cicd.fw-dunamuf-prod.com/foundation/sonar-scanner-cli:5.0.1
 
 LABEL version="2.0.1" \
       repository="https://github.com/sonarsource/sonarqube-scan-action" \
